@@ -19,38 +19,38 @@
  -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="vibrate_on_keypress">"ਕੀ ਦਬਾਉਣ 'ਤੇ ਵਾਈਬਰੇਟ"</string>
-    <string name="sound_on_keypress">"ਕੀ ਦਬਾਉਣ 'ਤੇ ਆਵਾਜ਼"</string>
-    <string name="popup_on_keypress">"ਕੀ ਦਬਾਉਣ 'ਤੇ ਪੌਪਅੱਪ"</string>
-    <string name="settings_screen_preferences">"ਤਰਜੀਹਾਂ"</string>
+    <string name="vibrate_on_keypress">ਕੀ ਦਬਾਉਣ ਤੇ ਵਾਈਬਰੇਟ</string>
+    <string name="sound_on_keypress">ਕੀ ਦਬਾਉਣ ਤੇ ਆਵਾਜ਼</string>
+    <string name="popup_on_keypress">ਕੀ ਦਬਾਉਣ ਤੇ ਪੌਪਅੱਪ</string>
+    <string name="settings_screen_preferences">ਤਰਜੀਹਾਂ</string>
     <string name="settings_screen_key_press">ਕੀ ਦਬਾਉਣਾ</string>
     <string name="settings_screen_appearance">ਦਿੱਖ</string>
-    <string name="settings_screen_theme">"ਥੀਮ"</string>
-    <string name="abbreviation_unit_milliseconds">"<xliff:g id="MILLISECONDS">%s</xliff:g> ਮਿਲੀਸਕਿੰਟ"</string>
-    <string name="settings_system_default">"ਸਿਸਟਮ ਡਿਫਾਲਟ"</string>
-    <string name="auto_cap">"ਆਪਣੇ ਆਪ ਵੱਡੇ ਅੱਖਰ"</string>
-    <string name="auto_cap_summary">"ਹਰ ਵਾਕ ਦੇ ਪਹਿਲੇ ਸ਼ਬਦ ਨੂੰ ਵੱਡੇ ਅੱਖਰ ਨਾਲ ਲਿਖੋ"</string>
-    <string name="select_language">"ਭਾਸ਼ਾਵਾਂ"</string>
-    <string name="locale_name_en_GB">"ਅੰਗਰੇਜ਼ੀ (ਯੂਕੇ)"</string>
-    <string name="locale_name_en_US">"ਅੰਗਰੇਜ਼ੀ (ਯੂਐਸ)"</string>
-    <string name="locale_name_es_US">"ਸਪੇਨੀ (ਯੂਐਸ)"</string>
-    <string name="locale_name_hi_ZZ">"ਹਿੰਗਲਿਸ਼"</string>
-    <string name="locale_name_pa_IN">"ਪੰਜਾਬੀ (ਭਾਰਤ)"</string>
-    <string name="locale_name_sr_ZZ">"ਸਰਬੀਆਈ (ਲਾਤੀਨੀ)"</string>
-    <string name="subtype_traditional">"ਰਵਾਇਤੀ"</string>
-    <string name="subtype_compact">"ਸੰਖੇਪ"</string>
-    <string name="add">"ਜੋੜੋ"</string>
-    <string name="remove">"ਹਟਾਓ"</string>
-    <string name="prefs_keypress_sound_volume_settings">"ਕੀ ਦਬਾਉਣ ਦੀ ਆਵਾਜ਼ ਦਾ ਪੱਧਰ"</string>
-    <string name="prefs_key_longpress_timeout_settings">"ਕੀ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਦਬਾਉਣ ਦੀ ਦੇਰੀ"</string>
-    <string name="button_default">"ਡਿਫਾਲਟ"</string>
+    <string name="settings_screen_theme">ਥੀਮ</string>
+    <string name="abbreviation_unit_milliseconds"><xliff:g id="MILLISECONDS">%s</xliff:g> ਮਿਲੀਸਕਿੰਟ</string>
+    <string name="settings_system_default">ਸਿਸਟਮ ਡਿਫਾਲਟ</string>
+    <string name="auto_cap">ਆਪਣੇ ਆਪ ਵੱਡੇ ਅੱਖਰ</string>
+    <string name="auto_cap_summary">ਹਰ ਵਾਕ ਦੇ ਪਹਿਲੇ ਸ਼ਬਦ ਨੂੰ ਵੱਡੇ ਅੱਖਰ ਨਾਲ ਲਿਖੋ</string>
+    <string name="select_language">ਭਾਸ਼ਾਵਾਂ</string>
+    <string name="locale_name_en_GB">ਅੰਗਰੇਜ਼ੀ (ਯੂਕੇ)</string>
+    <string name="locale_name_en_US">ਅੰਗਰੇਜ਼ੀ (ਯੂਐਸ)</string>
+    <string name="locale_name_es_US">ਸਪੇਨੀ (ਯੂਐਸ)</string>
+    <string name="locale_name_hi_ZZ">ਹਿੰਗਲਿਸ਼</string>
+    <string name="locale_name_pa_IN">ਪੰਜਾਬੀ (ਭਾਰਤ)</string>
+    <string name="locale_name_sr_ZZ">ਸਰਬੀਆਈ (ਲਾਤੀਨੀ)</string>
+    <string name="subtype_traditional">ਰਵਾਇਤੀ</string>
+    <string name="subtype_compact">ਸੰਖੇਪ</string>
+    <string name="add">ਜੋੜੋ</string>
+    <string name="remove">ਹਟਾਓ</string>
+    <string name="prefs_keypress_sound_volume_settings">ਕੀ ਦਬਾਉਣ ਦੀ ਆਵਾਜ਼ ਦਾ ਪੱਧਰ</string>
+    <string name="prefs_key_longpress_timeout_settings">ਕੀ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਦਬਾਉਣ ਦੀ ਦੇਰੀ</string>
+    <string name="button_default">ਡਿਫਾਲਟ</string>
     <string name="prefs_keyboard_height_settings">ਕੀਬੋਰਡ ਦੀ ਉਚਾਈ</string>
     <string name="keyboard_color">ਕਸਟਮ ਕੀਬੋਰਡ ਰੰਗ ਸੈੱਟ ਕਰੋ</string>
     <string name="hide_special_chars">ਵਿਸ਼ੇਸ਼ ਅੱਖਰ ਲੁਕਾਓ</string>
     <string name="hide_language_switch_key">ਭਾਸ਼ਾ ਬਦਲਣ ਵਾਲੀ ਕੀ ਲੁਕਾਓ</string>
     <string name="pref_use_on_screen">ਆਨ-ਸਕਰੀਨ ਕੀਬੋਰਡ ਦਿਖਾਓ</string>
     <string name="pref_use_on_screen_summary">ਭੌਤਿਕ ਕੀਬੋਰਡ ਵਰਤਦੇ ਸਮੇਂ ਆਨ-ਸਕਰੀਨ ਕੀਬੋਰਡ ਦਿਖਾਓ</string>
-    <string name="pref_enable_ime_switch">ਹੋਰ ਕੀਬੋਰਡਾਂ 'ਤੇ ਜਾਓ</string>
+    <string name="pref_enable_ime_switch">ਹੋਰ ਕੀਬੋਰਡਾਂ ਤੇ ਜਾਓ</string>
     <string name="show_number_row">ਵੱਖਰੀ ਨੰਬਰ ਕਤਾਰ ਦਿਖਾਓ</string>
     <string name="space_swipe">ਕਰਸਰ ਹਿਲਾਉਣ ਲਈ ਸਪੇਸ ਸਵਾਈਪ</string>
     <string name="delete_swipe">ਡਿਲੀਟ ਸਵਾਈਪ</string>
@@ -58,7 +58,7 @@
     <string name="user_languages">ਸਮਰੱਥ ਕੀਬੋਰਡ ਭਾਸ਼ਾਵਾਂ</string>
     <string name="add_language">ਭਾਸ਼ਾ ਜੋੜੋ</string>
     <string name="remove_language">ਭਾਸ਼ਾ ਹਟਾਓ</string>
-    <string name="generic_language_layouts"><xliff:g id="LANGUAGE_NAME" example="English (US)">%s</xliff:g> ਕੀਬੋਰਡ ਲੇਆਉਟ</string>
+    <string name="generic_language_layouts" formatted="false"><xliff:g id="LANGUAGE_NAME" example="English (US)">%s</xliff:g> ਕੀਬੋਰਡ ਲੇਆਉਟ</string>
     <string name="change_keyboard">ਕੀਬੋਰਡ ਬਦਲੋ</string>
     <string name="privacy_policy">ਪ੍ਰਾਈਵੇਸੀ ਨੀਤੀ</string>
     <string name="license">ਲਾਇਸੈਂਸ</string>
