@@ -35,6 +35,7 @@
     <string name="locale_name_en_US">"Anglais (États-Unis)"</string>
     <string name="locale_name_es_US">"Espagnol (États-Unis)"</string>
     <string name="locale_name_hi_ZZ">"Hindi/Anglais"</string>
+    <string name="locale_name_pa_IN">"Pendjabi (Inde)"</string>
     <string name="locale_name_sr_ZZ">"Serbe (latin)"</string>
     <string name="subtype_traditional">"traditionnel"</string>
     <string name="subtype_compact">"Compact"</string>

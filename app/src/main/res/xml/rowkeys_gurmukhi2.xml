@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2024, Simple Keyboard Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked">
+            <!-- U+0A13: "ਓ" GURMUKHI LETTER O -->
+            <Key
+                latin:keySpec="&#x0A13;"
+                latin:moreKeys="&#x0A13;&#x0A02;" />
+            <!-- U+0A0F: "ਏ" GURMUKHI LETTER E -->
+            <Key
+                latin:keySpec="&#x0A0F;"
+                latin:moreKeys="&#x0A0F;&#x0A02;" />
+            <!-- U+0A4D: "੍" GURMUKHI SIGN VIRAMA -->
+            <Key latin:keySpec="&#x0A4D;" />
+            <!-- U+0A07: "ਇ" GURMUKHI LETTER I -->
+            <Key
+                latin:keySpec="&#x0A07;"
+                latin:moreKeys="&#x0A07;&#x0A02;" />
+            <!-- U+0A09: "ਉ" GURMUKHI LETTER U -->
+            <Key
+                latin:keySpec="&#x0A09;"
+                latin:moreKeys="&#x0A09;&#x0A02;" />
+            <!-- U+0A2B: "ਫ" GURMUKHI LETTER PHA -->
+            <Key
+                latin:keySpec="&#x0A2B;"
+                latin:moreKeys="&#x0A2B;&#x0A3C;" />
+            <!-- U+0A30: "ਰ" GURMUKHI LETTER RA -->
+            <Key
+                latin:keySpec="&#x0A30;"
+                latin:moreKeys="&#x0A5C;" />
+            <!-- U+0A16: "ਖ" GURMUKHI LETTER KHA -->
+            <Key
+                latin:keySpec="&#x0A16;"
+                latin:moreKeys="&#x0A16;&#x0A3C;" />
+            <!-- U+0A25: "ਥ" GURMUKHI LETTER THA -->
+            <Key latin:keySpec="&#x0A25;" />
+        </case>
+        <default>
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <include latin:keyboardLayout="@xml/keystyle_gurmukhi_vowel_sign_o" />
+            <Key latin:keyStyle="baseKeyGurmukhiVowelSignO" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <include latin:keyboardLayout="@xml/keystyle_gurmukhi_vowel_sign_e" />
+            <Key latin:keyStyle="baseKeyGurmukhiVowelSignE" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <include latin:keyboardLayout="@xml/keystyle_gurmukhi_sign_virama" />
+            <Key latin:keyStyle="baseKeyGurmukhiSignVirama" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <include latin:keyboardLayout="@xml/keystyle_gurmukhi_vowel_sign_i" />
+            <Key latin:keyStyle="baseKeyGurmukhiVowelSignI" />
+            <!-- Because the font rendering system prior to API version 16 can't automatically
+                 render dotted circle for incomplete combining letter of some scripts, different
+                 set of Key definitions are needed based on the API version. -->
+            <include latin:keyboardLayout="@xml/keystyle_gurmukhi_vowel_sign_u" />
+            <Key latin:keyStyle="baseKeyGurmukhiVowelSignU" />
+            <!-- U+0A2A: "ਪ" GURMUKHI LETTER PA -->
+            <Key
+                latin:keySpec="&#x0A2A;"
+                latin:moreKeys="&#x0A2B;,&#x0A2B;&#x0A3C;" />
+            <!-- U+0A30: "ਰ" GURMUKHI LETTER RA -->
+            <Key
+                latin:keySpec="&#x0A30;"
+                latin:moreKeys="&#x0A5C;" />
+            <!-- U+0A15: "ਕ" GURMUKHI LETTER KA -->
+            <Key
+                latin:keySpec="&#x0A15;"
+                latin:moreKeys="&#x0A16;,&#x0A16;&#x0A3C;" />
+            <!-- U+0A24: "ਤ" GURMUKHI LETTER TA -->
+            <Key
+                latin:keySpec="&#x0A24;"
+                latin:moreKeys="&#x0A25;" />
+        </default>
+    </switch>
+</merge>

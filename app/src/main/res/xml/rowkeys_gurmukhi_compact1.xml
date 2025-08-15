@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2024, Simple Keyboard Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <switch>
+        <case latin:showNumberRow="true">
+            <!-- U+0A14: "ਔ" GURMUKHI LETTER AU
+                 U+0A67: "੧" GURMUKHI DIGIT ONE -->
+            <Key
+                latin:keySpec="&#x0A14;"
+                latin:moreKeys="&#x0A13;"
+                latin:additionalMoreKeys="&#x0A67;" />
+            <!-- U+0A10: "ਐ" GURMUKHI LETTER AI
+                 U+0A68: "੨" GURMUKHI DIGIT TWO -->
+            <Key
+                latin:keySpec="&#x0A10;"
+                latin:moreKeys="&#x0A0F;"
+                latin:additionalMoreKeys="&#x0A68;" />
+            <!-- U+0A06: "ਆ" GURMUKHI LETTER AA
+                 U+0A69: "੩" GURMUKHI DIGIT THREE -->
+            <Key
+                latin:keySpec="&#x0A06;"
+                latin:moreKeys="&#x0A05;"
+                latin:additionalMoreKeys="&#x0A69;" />
+            <!-- U+0A08: "ਈ" GURMUKHI LETTER II
+                 U+0A6A: "੪" GURMUKHI DIGIT FOUR -->
+            <Key
+                latin:keySpec="&#x0A08;"
+                latin:moreKeys="&#x0A07;"
+                latin:additionalMoreKeys="&#x0A6A;" />
+            <!-- U+0A0A: "ਊ" GURMUKHI LETTER UU
+                 U+0A6B: "੫" GURMUKHI DIGIT FIVE -->
+            <Key
+                latin:keySpec="&#x0A0A;"
+                latin:moreKeys="&#x0A09;"
+                latin:additionalMoreKeys="&#x0A6B;" />
+            <!-- U+0A2C: "ਬ" GURMUKHI LETTER BA
+                 U+0A6C: "੬" GURMUKHI DIGIT SIX -->
+            <Key
+                latin:keySpec="&#x0A2C;"
+                latin:moreKeys="&#x0A2D;"
+                latin:additionalMoreKeys="&#x0A6C;" />
+            <!-- U+0A39: "ਹ" GURMUKHI LETTER HA
+                 U+0A6D: "੭" GURMUKHI DIGIT SEVEN -->
+            <Key
+                latin:keySpec="&#x0A39;"
+                latin:additionalMoreKeys="&#x0A6D;" />
+            <!-- U+0A17: "ਗ" GURMUKHI LETTER GA
+                 U+0A6E: "੮" GURMUKHI DIGIT EIGHT -->
+            <Key
+                latin:keySpec="&#x0A17;"
+                latin:moreKeys="&#x0A18;"
+                latin:additionalMoreKeys="&#x0A6E;" />
+            <!-- U+0A26: "ਦ" GURMUKHI LETTER DA
+                 U+0A6F: "੯" GURMUKHI DIGIT NINE -->
+            <Key
+                latin:keySpec="&#x0A26;"
+                latin:moreKeys="&#x0A27;"
+                latin:additionalMoreKeys="&#x0A6F;" />
+            <!-- U+0A1C: "ਜ" GURMUKHI LETTER JA
+                 U+0A66: "੦" GURMUKHI DIGIT ZERO -->
+            <Key
+                latin:keySpec="&#x0A1C;"
+                latin:moreKeys="&#x0A1D;"
+                latin:additionalMoreKeys="&#x0A66;" />
+        </case>
+        <default>
+            <!-- U+0A14: "ਔ" GURMUKHI LETTER AU
+                 U+0A67: "੧" GURMUKHI DIGIT ONE -->
+            <Key
+                latin:keySpec="&#x0A14;"
+                latin:moreKeys="&#x0A13;"
+                latin:keyHintLabel="1"
+                latin:additionalMoreKeys="&#x0A67;,1" />
+            <!-- U+0A10: "ਐ" GURMUKHI LETTER AI
+                 U+0A68: "੨" GURMUKHI DIGIT TWO -->
+            <Key
+                latin:keySpec="&#x0A10;"
+                latin:moreKeys="&#x0A0F;"
+                latin:keyHintLabel="2"
+                latin:additionalMoreKeys="&#x0A68;,2" />
+            <!-- U+0A06: "ਆ" GURMUKHI LETTER AA
+                 U+0A69: "੩" GURMUKHI DIGIT THREE -->
+            <Key
+                latin:keySpec="&#x0A06;"
+                latin:moreKeys="&#x0A05;"
+                latin:keyHintLabel="3"
+                latin:additionalMoreKeys="&#x0A69;,3" />
+            <!-- U+0A08: "ਈ" GURMUKHI LETTER II
+                 U+0A6A: "੪" GURMUKHI DIGIT FOUR -->
+            <Key
+                latin:keySpec="&#x0A08;"
+                latin:moreKeys="&#x0A07;"
+                latin:keyHintLabel="4"
+                latin:additionalMoreKeys="&#x0A6A;,4" />
+            <!-- U+0A0A: "ਊ" GURMUKHI LETTER UU
+                 U+0A6B: "੫" GURMUKHI DIGIT FIVE -->
+            <Key
+                latin:keySpec="&#x0A0A;"
+                latin:moreKeys="&#x0A09;"
+                latin:keyHintLabel="5"
+                latin:additionalMoreKeys="&#x0A6B;,5" />
+            <!-- U+0A2C: "ਬ" GURMUKHI LETTER BA
+                 U+0A6C: "੬" GURMUKHI DIGIT SIX -->
+            <Key
+                latin:keySpec="&#x0A2C;"
+                latin:moreKeys="&#x0A2D;"
+                latin:keyHintLabel="6"
+                latin:additionalMoreKeys="&#x0A6C;,6" />
+            <!-- U+0A39: "ਹ" GURMUKHI LETTER HA
+                 U+0A6D: "੭" GURMUKHI DIGIT SEVEN -->
+            <Key
+                latin:keySpec="&#x0A39;"
+                latin:keyHintLabel="7"
+                latin:additionalMoreKeys="&#x0A6D;,7" />
+            <!-- U+0A17: "ਗ" GURMUKHI LETTER GA
+                 U+0A6E: "੮" GURMUKHI DIGIT EIGHT -->
+            <Key
+                latin:keySpec="&#x0A17;"
+                latin:moreKeys="&#x0A18;"
+                latin:keyHintLabel="8"
+                latin:additionalMoreKeys="&#x0A6E;,8" />
+            <!-- U+0A26: "ਦ" GURMUKHI LETTER DA
+                 U+0A6F: "੯" GURMUKHI DIGIT NINE -->
+            <Key
+                latin:keySpec="&#x0A26;"
+                latin:moreKeys="&#x0A27;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="&#x0A6F;,9" />
+            <!-- U+0A1C: "ਜ" GURMUKHI LETTER JA
+                 U+0A66: "੦" GURMUKHI DIGIT ZERO -->
+            <Key
+                latin:keySpec="&#x0A1C;"
+                latin:moreKeys="&#x0A1D;"
+                latin:keyHintLabel="0"
+                latin:additionalMoreKeys="&#x0A66;,0" />
+        </default>
+    </switch>
+</merge>

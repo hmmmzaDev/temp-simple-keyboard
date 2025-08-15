@@ -93,6 +93,7 @@ public final class SubtypeLocaleUtils {
     private static final String LOCALE_NEPALI_NEPAL = "ne_NP";
     private static final String LOCALE_DUTCH = "nl";
     private static final String LOCALE_DUTCH_BELGIUM = "nl_BE";
+    private static final String LOCALE_PUNJABI_INDIA = "pa_IN";
     private static final String LOCALE_POLISH = "pl";
     private static final String LOCALE_PORTUGUESE_BRAZIL = "pt_BR";
     private static final String LOCALE_PORTUGUESE_PORTUGAL = "pt_PT";
@@ -173,6 +174,7 @@ public final class SubtypeLocaleUtils {
             LOCALE_NEPALI_NEPAL,
             LOCALE_DUTCH,
             LOCALE_DUTCH_BELGIUM,
+            LOCALE_PUNJABI_INDIA,
             LOCALE_POLISH,
             LOCALE_PORTUGUESE_BRAZIL,
             LOCALE_PORTUGUESE_PORTUGAL,

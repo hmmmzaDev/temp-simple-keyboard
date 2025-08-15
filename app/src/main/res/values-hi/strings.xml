@@ -33,6 +33,7 @@
     <string name="locale_name_en_US">"अंग्रेज़ी (यूएस)"</string>
     <string name="locale_name_es_US">"स्पेनिश (यूएस)"</string>
     <string name="locale_name_hi_ZZ">"हिंग्लिश"</string>
+    <string name="locale_name_pa_IN">"पंजाबी (भारत)"</string>
     <string name="locale_name_sr_ZZ">"सर्बियाई (लैटिन)"</string>
     <string name="subtype_traditional">"पारंपरिक"</string>
     <string name="subtype_compact">"संक्षिप्त"</string>
