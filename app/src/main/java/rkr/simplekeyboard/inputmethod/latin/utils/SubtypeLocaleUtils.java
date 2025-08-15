@@ -222,6 +222,8 @@ public final class SubtypeLocaleUtils {
     public static final String LAYOUT_FARSI = "farsi";
     public static final String LAYOUT_GEORGIAN = "georgian";
     public static final String LAYOUT_GREEK = "greek";
+    public static final String LAYOUT_GURMUKHI = "gurmukhi";
+    public static final String LAYOUT_GURMUKHI_COMPACT = "gurmukhi_compact";
     public static final String LAYOUT_HEBREW = "hebrew";
     public static final String LAYOUT_HINDI = "hindi";
     public static final String LAYOUT_HINDI_COMPACT = "hindi_compact";
@@ -493,6 +495,10 @@ public final class SubtypeLocaleUtils {
                 case LOCALE_HINDI:
                     addLayout(LAYOUT_HINDI);
                     addLayout(LAYOUT_HINDI_COMPACT, R.string.subtype_compact);
+                    break;
+                case LOCALE_PUNJABI_INDIA:
+                    addLayout(LAYOUT_GURMUKHI);
+                    addLayout(LAYOUT_GURMUKHI_COMPACT, R.string.subtype_compact);
                     break;
                 case LOCALE_ARMENIAN_ARMENIA:
                     addLayout(LAYOUT_ARMENIAN_PHONETIC);
