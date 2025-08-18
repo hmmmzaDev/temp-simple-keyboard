@@ -19,34 +19,12 @@
 -->
 
 <merge xmlns:latin="http://schemas.android.com/apk/res-auto">
-    <!-- U+0A05: "ਅ" GURMUKHI LETTER A -->
-    <Key latin:keySpec="&#x0A05;" />
-    <!-- Because the font rendering system prior to API version 16 can't automatically
-         render dotted circle for incomplete combining letter of some scripts, different
-         set of Key definitions are needed based on the API version. -->
-    <include latin:keyboardLayout="@xml/keystyle_gurmukhi_sign_bindi" />
-    <Key latin:keyStyle="baseKeyGurmukhiSignBindi" />
-    <!-- U+0A2E: "ਮ" GURMUKHI LETTER MA -->
-    <Key latin:keySpec="&#x0A2E;" />
-    <!-- U+0A28: "ਨ" GURMUKHI LETTER NA -->
-    <Key
-        latin:keySpec="&#x0A28;"
-        latin:moreKeys="&#x0A23;,&#x0A19;" />
-    <!-- U+0A35: "ਵ" GURMUKHI LETTER VA -->
+    <!-- Z X C V B N M → ਟ ਞ ਚ ਵ ਬ ਨ ਮ -->
+    <Key latin:keySpec="&#x0A1F;" />
+    <Key latin:keySpec="&#x0A1E;" />
+    <Key latin:keySpec="&#x0A1A;" />
     <Key latin:keySpec="&#x0A35;" />
-    <!-- U+0A32: "ਲ" GURMUKHI LETTER LA -->
-    <Key
-        latin:keySpec="&#x0A32;"
-        latin:moreKeys="&#x0A33;" />
-    <!-- U+0A38: "ਸ" GURMUKHI LETTER SA -->
-    <Key
-        latin:keySpec="&#x0A38;"
-        latin:moreKeys="&#x0A36;" />
-    <!-- U+0A2F: "ਯ" GURMUKHI LETTER YA -->
-    <Key latin:keySpec="&#x0A2F;" />
-    <!-- Because the font rendering system prior to API version 16 can't automatically
-         render dotted circle for incomplete combining letter of some scripts, different
-         set of Key definitions are needed based on the API version. -->
-    <include latin:keyboardLayout="@xml/keystyle_gurmukhi_sign_nukta" />
-    <Key latin:keyStyle="baseKeyGurmukhiSignNukta" />
+    <Key latin:keySpec="&#x0A2C;" />
+    <Key latin:keySpec="&#x0A28;" />
+    <Key latin:keySpec="&#x0A2E;" />
 </merge>
